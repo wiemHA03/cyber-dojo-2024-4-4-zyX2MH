@@ -38,7 +38,7 @@ public class ChristmasSongTest {
     void test_whole_second_verse() {
         String expected = "On the second day of Christmas\n" +
                 "My true love gave to me:\n"+
-                "Two turtle doves and:\n" +
+                "Two turtle doves and\n" +
                  "A partridge in a pear tree.";
         String actual = ChristmasSong.createWholeVerse(2);
         assertEquals(expected, actual);
