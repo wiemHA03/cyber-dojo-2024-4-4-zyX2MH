@@ -14,7 +14,7 @@ public class ChristmasSong {
         List<String> lyricList = List.of("A partridge in a pear tree.", "Two turtle doves and");
         StringBuilder verse = new StringBuilder(createVerseHeader(number));
         for (int i = 1; i <= number; i++) {
-            verse.append("/n");
+            verse.append("\n");
             verse.append(lyricList.get(number - i));
         }
           return verse.toString();
