@@ -2,11 +2,12 @@
 public class ChristmasSong {
 
     public static String createVerseHeader(int number) {
+        String dayNumber;
         if (number ==1)
-        return "On the first day of Christmas\n" +
+            dayNumber= "first";
+        dayNumber = "second";
+        return "On the "+ dayNumber +" day of Christmas\n" +
                 "My true love gave to me:";
-        else 
-            return "On the second day of Christmas\n" +
-                "My true love gave to me:";
+    
     }
 }
