@@ -43,4 +43,15 @@ public class ChristmasSongTest {
         String actual = ChristmasSong.createWholeVerse(2);
         assertEquals(expected, actual);
     }
+    
+        @Test
+    void test_whole_second_verse() {
+        String expected = "On the third day of Christmas\n" +
+                "My true love gave to me:\n"+
+                "Three french hens\n" +
+                "Two turtle doves and\n" +
+                 "A partridge in a pear tree.";
+        String actual = ChristmasSong.createWholeVerse(3);
+        assertEquals(expected, actual);
+    }
 }

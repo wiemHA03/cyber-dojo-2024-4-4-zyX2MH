@@ -11,7 +11,7 @@ public class ChristmasSong {
     }
     
       public static String createWholeVerse(int number) {
-        List<String> lyricList = List.of("A partridge in a pear tree.", "Two turtle doves and");
+        List<String> lyricList = List.of("A partridge in a pear tree.", "Two turtle doves and", "Three french hens");
         StringBuilder verse = new StringBuilder(createVerseHeader(number));
         for (int i = 1; i <= number; i++) {
             verse.append("\n");
