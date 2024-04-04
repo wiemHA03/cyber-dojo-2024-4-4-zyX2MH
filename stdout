@@ -116,21 +116,25 @@
 |   |     A partridge in a pear tree.> but was: <On the first day of Christmas
 |   |     My true love gave to me:
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the second day of Christmas
 |   |     My true love gave to me:
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the third day of Christmas
 |   |     My true love gave to me:
 |   |     Three french hens
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the fourth day of Christmas
 |   |     My true love gave to me:
 |   |     Four calling birds
 |   |     Three french hens
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the fifth day of Christmas
 |   |     My true love gave to me:
 |   |     Five golden rings
@@ -138,6 +142,7 @@
 |   |     Three french hens
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the sixth day of Christmas
 |   |     My true love gave to me:
 |   |     Six geese a-laying
@@ -146,6 +151,7 @@
 |   |     Three french hens
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the seventh day of Christmas
 |   |     My true love gave to me:
 |   |     Seven swans a-swimming
@@ -155,6 +161,7 @@
 |   |     Three french hens
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the eight day of Christmas
 |   |     My true love gave to me:
 |   |     Eight maids a-milking
@@ -165,6 +172,7 @@
 |   |     Three french hens
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the ninth day of Christmas
 |   |     My true love gave to me:
 |   |     Nine ladies dancing
@@ -176,6 +184,7 @@
 |   |     Three french hens
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the tenth day of Christmas
 |   |     My true love gave to me:
 |   |     Ten lords a-leaping
@@ -188,6 +197,7 @@
 |   |     Three french hens
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the eleventh day of Christmas
 |   |     My true love gave to me:
 |   |     Eleven pipers piping
@@ -201,6 +211,7 @@
 |   |     Three french hens
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     On the twelfth day of Christmas
 |   |     My true love gave to me:
 |   |     Twelve drummers drumming
@@ -215,6 +226,7 @@
 |   |     Three french hens
 |   |     Two turtle doves and
 |   |     A partridge in a pear tree.
+|   |   
 |   |     >
 |   +-- test whole third verse [OK]
 |   +-- test whole second verse [OK]
@@ -342,21 +354,25 @@ Two turtle doves and
 A partridge in a pear tree.> but was: <On the first day of Christmas
 My true love gave to me:
 A partridge in a pear tree.
+
 On the second day of Christmas
 My true love gave to me:
 Two turtle doves and
 A partridge in a pear tree.
+
 On the third day of Christmas
 My true love gave to me:
 Three french hens
 Two turtle doves and
 A partridge in a pear tree.
+
 On the fourth day of Christmas
 My true love gave to me:
 Four calling birds
 Three french hens
 Two turtle doves and
 A partridge in a pear tree.
+
 On the fifth day of Christmas
 My true love gave to me:
 Five golden rings
@@ -364,6 +380,7 @@ Four calling birds
 Three french hens
 Two turtle doves and
 A partridge in a pear tree.
+
 On the sixth day of Christmas
 My true love gave to me:
 Six geese a-laying
@@ -372,6 +389,7 @@ Four calling birds
 Three french hens
 Two turtle doves and
 A partridge in a pear tree.
+
 On the seventh day of Christmas
 My true love gave to me:
 Seven swans a-swimming
@@ -381,6 +399,7 @@ Four calling birds
 Three french hens
 Two turtle doves and
 A partridge in a pear tree.
+
 On the eight day of Christmas
 My true love gave to me:
 Eight maids a-milking
@@ -391,6 +410,7 @@ Four calling birds
 Three french hens
 Two turtle doves and
 A partridge in a pear tree.
+
 On the ninth day of Christmas
 My true love gave to me:
 Nine ladies dancing
@@ -402,6 +422,7 @@ Four calling birds
 Three french hens
 Two turtle doves and
 A partridge in a pear tree.
+
 On the tenth day of Christmas
 My true love gave to me:
 Ten lords a-leaping
@@ -414,6 +435,7 @@ Four calling birds
 Three french hens
 Two turtle doves and
 A partridge in a pear tree.
+
 On the eleventh day of Christmas
 My true love gave to me:
 Eleven pipers piping
@@ -427,6 +449,7 @@ Four calling birds
 Three french hens
 Two turtle doves and
 A partridge in a pear tree.
+
 On the twelfth day of Christmas
 My true love gave to me:
 Twelve drummers drumming
@@ -441,6 +464,7 @@ Four calling birds
 Three french hens
 Two turtle doves and
 A partridge in a pear tree.
+
 >
        org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
        org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -453,7 +477,7 @@ A partridge in a pear tree.
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 152 ms
+Test run finished after 176 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]

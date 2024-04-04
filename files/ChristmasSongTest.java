@@ -175,7 +175,7 @@ public class ChristmasSongTest {
         StringBuilder poem = new StringBuilder();
         for (int i = 1; i <= 12; i++) {
             poem.append(ChristmasSong.createWholeVerse(i));
-            poem.append("\n");
+            poem.append("\n\n");
         }
         assertEquals(expected, poem.toString());
     }
