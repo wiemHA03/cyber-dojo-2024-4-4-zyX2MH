@@ -1,11 +1,4 @@
-ChristmasSong.java:5: error: cannot find symbol
-       List<String> dayList = List.of("first", "second", "third");
-       ^
-  symbol:   class List
-  location: class ChristmasSong
-ChristmasSong.java:5: error: cannot find symbol
-       List<String> dayList = List.of("first", "second", "third");
-                              ^
-  symbol:   variable List
-  location: class ChristmasSong
-2 errors
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
