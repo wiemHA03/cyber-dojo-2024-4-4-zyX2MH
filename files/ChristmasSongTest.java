@@ -45,7 +45,7 @@ public class ChristmasSongTest {
     }
     
         @Test
-    void test_whole_second_verse() {
+    void test_whole_third_verse() {
         String expected = "On the third day of Christmas\n" +
                 "My true love gave to me:\n"+
                 "Three french hens\n" +
