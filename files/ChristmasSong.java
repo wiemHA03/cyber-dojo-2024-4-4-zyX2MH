@@ -5,7 +5,7 @@ public class ChristmasSong {
         String dayNumber;
         if (number ==1)
             dayNumber= "first";
-        dayNumber = "second";
+        else dayNumber = "second";
         return "On the "+ dayNumber +" day of Christmas\n" +
                 "My true love gave to me:";
     
