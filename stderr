@@ -1,4 +1,4 @@
-ChristmasSong.java:14: error: ';' expected
-    return createVerseHeader(number) +"\n"+ "A partridge in a pear tree."}
-                                                                         ^
-1 error
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
