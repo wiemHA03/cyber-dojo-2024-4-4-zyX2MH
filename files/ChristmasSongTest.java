@@ -174,7 +174,7 @@ public class ChristmasSongTest {
       
         StringBuilder poem = new StringBuilder();
         for (int i = 1; i <= 12; i++) {
-            poem.append(new StringBuilder(createVerseHeader(number)));
+            poem.append(new StringBuilder(createVerseHeader(i)));
             poem.append("/n");
         }
         assertEquals(expected, poem.toString());

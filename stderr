@@ -1,6 +1,6 @@
 ChristmasSongTest.java:177: error: cannot find symbol
-            poem.append(new StringBuilder(createVerseHeader(number)));
-                                                            ^
-  symbol:   variable number
+            poem.append(new StringBuilder(createVerseHeader(i)));
+                                          ^
+  symbol:   method createVerseHeader(int)
   location: class ChristmasSongTest
 1 error
