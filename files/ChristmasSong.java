@@ -17,5 +17,6 @@ public class ChristmasSong {
             verse.append("/n");
             verse.append(lyricList.get(number - i));
         }
+          return verse;
     }
 }

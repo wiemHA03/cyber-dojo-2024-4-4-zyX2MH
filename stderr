@@ -1,4 +1,4 @@
-ChristmasSong.java:20: error: missing return statement
-    }
-    ^
+ChristmasSong.java:20: error: incompatible types: StringBuilder cannot be converted to String
+          return verse;
+                 ^
 1 error
