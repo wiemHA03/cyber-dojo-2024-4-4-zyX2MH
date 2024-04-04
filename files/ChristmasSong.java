@@ -11,6 +11,7 @@ public class ChristmasSong {
     }
     
     public static String createWholeVerse(int number){
-    return createVerseHeader(number) +"\n"+ "A partridge in a pear tree.";
+        List<String> lyricList = List.of("A partridge in a pear tree.");
+    return createVerseHeader(number) +"\n"+ lyricList.get(number - 1);
     }
 }
