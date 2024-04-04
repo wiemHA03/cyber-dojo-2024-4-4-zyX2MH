@@ -172,10 +172,10 @@ public class ChristmasSongTest {
                 "A partridge in a pear tree.";
        
       
-        StringBuilder poem = new StringBuilder();
+        StringBuilder poem = "";
         for (int i = 1; i <= 11; i++) {
-            poem.append(ChristmasSong.createWholeVerse(i));
-            poem.append("\n\n");
+            poem.append(ChristmasSong.createWholeVerse(i)+"\n");
+            poem.append("\n");
         }
         poem.append(ChristmasSong.createWholeVerse(12));
         assertEquals(expected, poem.toString());

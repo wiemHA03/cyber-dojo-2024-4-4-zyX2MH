@@ -1,4 +1,4 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+ChristmasSongTest.java:175: error: incompatible types: String cannot be converted to StringBuilder
+        StringBuilder poem = "";
+                             ^
+1 error
