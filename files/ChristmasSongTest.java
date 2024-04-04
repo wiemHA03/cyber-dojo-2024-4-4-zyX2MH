@@ -12,7 +12,7 @@ public class ChristmasSongTest {
     void test_header_of_first_verse() {
         String expected = "On the first day of Christmas\n" +
                 "My true love gave to me:";
-        String actual = ChristmasSong.createVerseHeader(1);
+        String actual = ChristmasSong.createVerseHeader();
         assertEquals(expected, actual);
     }
     
