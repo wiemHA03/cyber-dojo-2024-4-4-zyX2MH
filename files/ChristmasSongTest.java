@@ -40,7 +40,7 @@ public class ChristmasSongTest {
                 "My true love gave to me:\n"+
                 "Two turtle doves and:\n" +
                  "A partridge in a pear tree.";
-        String actual = ChristmasSong.createWholeVerse(1);
+        String actual = ChristmasSong.createWholeVerse(2);
         assertEquals(expected, actual);
     }
 }
