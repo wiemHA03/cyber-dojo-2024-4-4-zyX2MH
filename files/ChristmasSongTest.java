@@ -30,7 +30,7 @@ public class ChristmasSongTest {
         String expected = "On the first day of Christmas\n" +
                 "My true love gave to me:\n"+
                  "A partridge in a pear tree.";
-        String actual = ChristmasSong.createVerseHeader(2);
+        String actual = ChristmasSong.createWholeVerse(1);
         assertEquals(expected, actual);
     }
 }
