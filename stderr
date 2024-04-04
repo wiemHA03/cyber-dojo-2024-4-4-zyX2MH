@@ -1,4 +1,6 @@
-ChristmasSong.java:20: error: incompatible types: StringBuilder cannot be converted to String
-          return verse;
-                 ^
+ChristmasSong.java:20: error: cannot find symbol
+          return verse.toString;
+                      ^
+  symbol:   variable toString
+  location: variable verse of type StringBuilder
 1 error
