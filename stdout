@@ -225,9 +225,7 @@
 |   |     Four calling birds
 |   |     Three french hens
 |   |     Two turtle doves and
-|   |     A partridge in a pear tree.
-|   |   
-|   |     >
+|   |     A partridge in a pear tree.>
 |   +-- test whole third verse [OK]
 |   +-- test whole second verse [OK]
 |   +-- test header of second verse [OK]
@@ -463,21 +461,19 @@ Five golden rings
 Four calling birds
 Three french hens
 Two turtle doves and
-A partridge in a pear tree.
-
->
+A partridge in a pear tree.>
        org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
        org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
        org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
        org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
        org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
        org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       ChristmasSongTest.test_whole_poem(ChristmasSongTest.java:180)
+       ChristmasSongTest.test_whole_poem(ChristmasSongTest.java:181)
        java.base/java.lang.reflect.Method.invoke(Method.java:580)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 176 ms
+Test run finished after 205 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
