@@ -36,7 +36,7 @@ public class ChristmasSongTest {
     
         @Test
     void test_whole_second_verse() {
-        String expected = "On the first day of Christmas\n" +
+        String expected = "On the second day of Christmas\n" +
                 "My true love gave to me:\n"+
                 "Two turtle doves and:\n" +
                  "A partridge in a pear tree.";
