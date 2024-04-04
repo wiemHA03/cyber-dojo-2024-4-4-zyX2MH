@@ -9,4 +9,7 @@ public class ChristmasSong {
                 "My true love gave to me:";
     
     }
+    
+    public static String createWholeVerse(int number){
+    return createVerseHeader(number) +"\n"+ "A partridge in a pear tree."}
 }

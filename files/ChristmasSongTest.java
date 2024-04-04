@@ -23,4 +23,14 @@ public class ChristmasSongTest {
         String actual = ChristmasSong.createVerseHeader(2);
         assertEquals(expected, actual);
     }
+    
+       
+      @Test
+    void test_whole_first_verse() {
+        String expected = "On the first day of Christmas\n" +
+                "My true love gave to me:\n"+
+                 "A partridge in a pear tree.";
+        String actual = ChristmasSong.createVerseHeader(2);
+        assertEquals(expected, actual);
+    }
 }
