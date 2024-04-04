@@ -87,7 +87,7 @@ public class ChristmasSongTest {
                 "Two turtle doves and\n" +
                 "A partridge in a pear tree.\n" +
                 "\n" +
-                "On the sixth day of Christmas,\n" +
+                "On the sixth day of Christmas\n" +
                 "My true love gave to me:\n" +
                 "Six geese a-laying\n" +
                 "Five golden rings\n" +
@@ -96,7 +96,7 @@ public class ChristmasSongTest {
                 "Two turtle doves and\n" +
                 "A partridge in a pear tree.\n" +
                 "\n" +
-                "On the seventh day of Christmas,\n" +
+                "On the seventh day of Christmas\n" +
                 "My true love gave to me:\n" +
                 "Seven swans a-swimming\n" +
                 "Six geese a-laying\n" +
@@ -106,7 +106,7 @@ public class ChristmasSongTest {
                 "Two turtle doves and\n" +
                 "A partridge in a pear tree.\n" +
                 "\n" +
-                "On the eight day of Christmas,\n" +
+                "On the eight day of Christmas\n" +
                 "My true love gave to me:\n" +
                 "Eight maids a-milking\n" +
                 "Seven swans a-swimming\n" +
@@ -117,7 +117,7 @@ public class ChristmasSongTest {
                 "Two turtle doves and\n" +
                 "A partridge in a pear tree.\n" +
                 "\n" +
-                "On the ninth day of Christmas,\n" +
+                "On the ninth day of Christmas\n" +
                 "My true love gave to me:\n" +
                 "Nine ladies dancing\n" +
                 "Eight maids a-milking\n" +
@@ -129,7 +129,7 @@ public class ChristmasSongTest {
                 "Two turtle doves and\n" +
                 "A partridge in a pear tree.\n" +
                 "\n" +
-                "On the tenth day of Christmas,\n" +
+                "On the tenth day of Christmas\n" +
                 "My true love gave to me:\n" +
                 "Ten lords a-leaping\n" +
                 "Nine ladies dancing\n" +
@@ -142,7 +142,7 @@ public class ChristmasSongTest {
                 "Two turtle doves and\n" +
                 "A partridge in a pear tree.\n" +
                 "\n" +
-                "On the eleventh day of Christmas,\n" +
+                "On the eleventh day of Christmas\n" +
                 "My true love gave to me:\n" +
                 "Eleven pipers piping\n" +
                 "Ten lords a-leaping\n" +
@@ -156,7 +156,7 @@ public class ChristmasSongTest {
                 "Two turtle doves and\n" +
                 "A partridge in a pear tree.\n" +
                 "\n" +
-                "On the twelfth day of Christmas,\n" +
+                "On the twelfth day of Christmas\n" +
                 "My true love gave to me:\n" +
                 "Twelve drummers drumming\n" +
                 "Eleven pipers piping\n" +
@@ -174,8 +174,8 @@ public class ChristmasSongTest {
       
         StringBuilder poem = new StringBuilder();;
         for (int i = 1; i <= 11; i++) {
-            poem.append(ChristmasSong.createWholeVerse(i)+"\n");
-            poem.append("\n");
+            poem.append(ChristmasSong.createWholeVerse(i));
+            poem.append("\n\n");
         }
         poem.append(ChristmasSong.createWholeVerse(12));
         assertEquals(expected, poem.toString());
